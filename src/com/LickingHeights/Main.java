@@ -19,6 +19,20 @@ fc = 0.1 to 0.2 (10–20% of which will be able to communicate)
 L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,000,000 years)
  */
 
+        int N;
+        int rStar;
+        int numberOfExoplanets;
+        int L;
+        double f_p;
+        double f_l;
+        double f_i;
+        double f_c;
+
+
+
+
+
+
 
 
     }
