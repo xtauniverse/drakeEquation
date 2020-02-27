@@ -56,6 +56,9 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         numberOfExoplanets = keyboard.nextLine();
         System.out.println("What is the fraction of those exoplanets where life evolves?");
         f_l = keyboard.nextLine();
+        System.out.println("What is the fraction of life that has developed intelligence?");
+        f_i = keyboard.hasNextLine()
+
 
         keyboard.close();
 
