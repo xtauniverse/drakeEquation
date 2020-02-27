@@ -54,7 +54,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         f_p = keyboard.nextLine();
         System.out.println("How many planets are capable of sustaining life?");
         numberOfExoplanets = keyboard.nextLine();
-
+        System.out.println("What is the fraction of those exoplanets where life evolves?");
+        f_l = keyboard.nextLine();
 
         keyboard.close();
 
