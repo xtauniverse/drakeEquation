@@ -39,8 +39,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         //ask for f_p fraction store in the f_p variable and commit.
         //ask for numberOfExoplanets number in the numberOfExoplanets variable and commit.
         //ask for f_l fraction store in the f_l variable and commit.
-        //ask for f_l fraction store in the f_i variable and commit.
-        //ask for f_l fraction store in the f_c variable and commit.
+        //ask for f_i fraction store in the f_i variable and commit.
+        //ask for f_c fraction store in the f_c variable and commit.
         //ask for L number store in the L variable and commit.
         //todo complete each one of the variables storing them correctly and committing each time
 
@@ -57,8 +57,9 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         System.out.println("What is the fraction of those exoplanets where life evolves?");
         f_l = keyboard.nextLine();
         System.out.println("What is the fraction of life that has developed intelligence?");
-        f_i = keyboard.hasNextLine()
-
+        f_i = keyboard.nextLine();
+        System.out.println("What is the fraction of life that has developed communication?");
+        f_c = keyboard.nextLine();
 
         keyboard.close();
 
