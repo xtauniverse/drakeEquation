@@ -12,6 +12,7 @@ public class Main {
     }
 
     public static void drakeEquation(){
+
 /*Drake equation
 N = number of intelligent species that can communicate with us
 R∗ = 1 yr−1 (1 star formed per year, on the average over the life of the galaxy; this was regarded as conservative)
@@ -44,13 +45,13 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         //todo complete each one of the variables storing them correctly and committing each time
 
         Scanner keyboard;
+
         keyboard = new Scanner(System.in);
 
         System.out.println("How many stars are formed per year?");
         rStar = keyboard.nextLine();
-
-
-
+        System.out.println("What is the fraction of those stars that have planets?");
+        f_p = keyboard.nextLine();
 
 
         keyboard.close();
