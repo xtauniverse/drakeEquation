@@ -52,6 +52,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         rStar = keyboard.nextLine();
         System.out.println("What is the fraction of those stars that have planets?");
         f_p = keyboard.nextLine();
+        System.out.println("How many planets are capable of sustaining life?");
+        numberOfExoplanets = keyboard.nextLine();
 
 
         keyboard.close();
