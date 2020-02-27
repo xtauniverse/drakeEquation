@@ -60,6 +60,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         f_i = keyboard.nextLine();
         System.out.println("What is the fraction of life that has developed communication?");
         f_c = keyboard.nextLine();
+        System.out.println("How long has their communications transmitted before they went extinct or made a new form of communication?");
+        L = keyboard.nextLine();
 
         keyboard.close();
 
